@@ -4,7 +4,9 @@ var brushHeight = 10;
 
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 
-
+function preload (){
+  bgimage = loadimage ("assets/plane.png");
+}
 
 function setup() {
     createCanvas(800, 400);
