@@ -4,9 +4,6 @@ var brushHeight = 10;
 
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 
-function preload (){
-  bgimage = loadimage ("assets/plane.png");
-}
 
 function setup() {
     createCanvas(800, 400);
@@ -25,6 +22,10 @@ function setup() {
     var blueText = createP("Blue");
     buttonBlueColor = createSlider(0, 255, 0);
 
+}
+
+function preload (){
+  bgimage = loadimage ("assets/plane.png");
 }
 
 function draw() {
