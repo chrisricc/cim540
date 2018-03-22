@@ -6,9 +6,11 @@ var y = 0
 
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 
+function preload() {
+  bgImg = loadImage("../assets/plane.jpg")
+}
 
 function setup() {
-    bgimage = loadImage("../assets/plane.jpg")
     createCanvas(800, 400);
 
     interfaceItems.push(new interface(50, 10, 40, color(0, 255, 0)));
