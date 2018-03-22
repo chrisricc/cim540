@@ -24,10 +24,6 @@ function setup() {
 
 }
 
-function preload (){
-  bgimage = loadimage ("assets/plane.png");
-}
-
 function draw() {
 
     fill(buttonRedColor.value(), buttonGreenColor.value(), buttonBlueColor.value());
