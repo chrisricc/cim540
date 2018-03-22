@@ -1,8 +1,7 @@
 var interfaceItems = [];
 var brushWidth = 10;
 var brushHeight = 10;
-var bg
-var y = 0
+var bgimage
 
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 
