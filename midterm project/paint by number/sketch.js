@@ -14,7 +14,7 @@ function setup() {
     interfaceItems.push(new interface(100, 10, 40, color(255, 0, 0)));
     interfaceItems.push(new interface(150, 10, 40, color(0, 0, 255)));
     interfaceItems.push(new interface(200, 10, 40, color(255, 255, 0)));
-    interfaceItems.push(new interface(250, 10, 30, color(0, 0, 0)));
+    interfaceItems.push(new interface(250, 10, 40, color(0, 0, 0)));
 
 
     var redText = createP("Red");
