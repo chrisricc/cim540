@@ -1,19 +1,21 @@
 var interfaceItems = [];
 var brushWidth = 10;
 var brushHeight = 10;
+var bg 
 
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 
 function setup() {
 
     createCanvas(800, 400);
+    bgimage = loadImage("assets/plane.jpg")
 
     interfaceItems.push(new interface(50, 10, 40, color(0, 255, 0)));
     interfaceItems.push(new interface(100, 10, 40, color(255, 0, 0)));
     interfaceItems.push(new interface(150, 10, 40, color(0, 0, 255)));
     interfaceItems.push(new interface(200, 10, 40, color(255, 255, 0)));
     interfaceItems.push(new interface(250, 10, 30, color(0, 0, 0)));
-    bgimage = loadImage("assets/plane.jpg")
+
 
     var redText = createP("Red");
     buttonRedColor = createSlider(0, 255, 0);
