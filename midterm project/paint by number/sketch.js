@@ -6,6 +6,9 @@ var bgImage
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 var img;
 
+function preload() {
+    img = loadImage('assets/plane.png');
+}
 
 function setup() {
     createCanvas(800, 400);
@@ -23,6 +26,8 @@ function setup() {
     buttonGreenColor = createSlider(0, 255, 0);
     var blueText = createP("Blue");
     buttonBlueColor = createSlider(0, 255, 0);
+
+    image(img, 0, 0);
 
 }
 
@@ -65,6 +70,7 @@ function mousePressed() {
 
     if (interfaceItems[4].check() == true) {
         clear();
+        image(img, 0, 0);
     }
 
 }
