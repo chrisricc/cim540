@@ -24,6 +24,8 @@ function setup() {
     var blueText = createP("Blue");
     buttonBlueColor = createSlider(0, 255, 0);
 
+    loadImage('assets/plane.png', function(img) {
+     image(img, 800, 400);
 }
 
 function draw() {
