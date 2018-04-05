@@ -6,7 +6,7 @@ var bgImage
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 
 var img;
-function preload() {
+function load() {
   img = loadImage('assets/plane.png');
 }
 
