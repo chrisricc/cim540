@@ -6,11 +6,10 @@ var bgImage
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
 
 var img;
-function load() {
-  img = loadImage('assets/plane.png');
-}
+
 
 function setup() {
+    img = loadImage('assets/plane.png');
   image(plane.png, 800,400)
     createCanvas(800, 400);
 
