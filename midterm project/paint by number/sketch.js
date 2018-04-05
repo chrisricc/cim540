@@ -4,13 +4,10 @@ var brushHeight = 10;
 var bgImage
 
 var buttonRedColor, buttonGreenColor, buttonBlueColor;
-
 var img;
 
 
 function setup() {
-    img = loadImage('assets/plane.png');
-  image(plane.png, 800,400)
     createCanvas(800, 400);
 
     interfaceItems.push(new interface(50, 10, 40, color(0, 255, 0)));
