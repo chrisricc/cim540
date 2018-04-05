@@ -10,6 +10,9 @@ var img;
 function setup() {
     createCanvas(800, 400);
 
+    loadImage('assets/plane.png', function(img) {
+     image(img, 800, 400);
+
     interfaceItems.push(new interface(50, 10, 40, color(0, 255, 0)));
     interfaceItems.push(new interface(100, 10, 40, color(255, 0, 0)));
     interfaceItems.push(new interface(150, 10, 40, color(0, 0, 255)));
@@ -24,8 +27,6 @@ function setup() {
     var blueText = createP("Blue");
     buttonBlueColor = createSlider(0, 255, 0);
 
-    loadImage('assets/plane.png', function(img) {
-     image(img, 800, 400);
 }
 
 function draw() {
